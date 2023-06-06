@@ -1,0 +1,5 @@
+qinclude=/usr/share/sway/templates/foot.ini
+#font=Iosevka NFM SemiBold:size=7.5
+#font=JetBrainsMono Nerd Font:size=6
+font=JetBrainsMono NFM Medium:size=6.5
+horizontal-letter-offset=0.3
