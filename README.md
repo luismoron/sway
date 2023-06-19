@@ -1,4 +1,4 @@
-# fedoraswaydotfiles
+# Sway Dotfiles
 
 Clonar repositorios
 
