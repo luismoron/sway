@@ -20,4 +20,3 @@ set $kvantum-theme Matcha-Dark
 for_window [class="whatsdesk"] floating enable
 for_window [class="Spotify"] floating enable sticky enable
 for_window [class="MongoDB Compass"] floating enable
-
