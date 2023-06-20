@@ -104,7 +104,7 @@
     "network": {
         "interval": 5,
         "format-wifi": "     {essid} {ipaddr}",
-        "format-ethernet": "  " ,
+        "format-ethernet": "    {ipaddr}" ,
         "format-disconnected": " 睊Disconnected",
         "tooltip-format": "{ifname} ({essid}): {ipaddr}",
         "on-click": "swaymsg exec \\$term_float nmtui"
@@ -181,8 +181,9 @@
     },
 
     "bluetooth": {
-        "format": "󰂯 ",
-        "format-disabled": "󰂲",
+        "format": "󰂯 {status}",
+        "format-disabled": "󰂲 {status}",
+	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
         "on-click": "swaymsg exec \\$bluetooth",
         "on-click-right": "rfkill toggle bluetooth",
         "tooltip-format": "{}"
