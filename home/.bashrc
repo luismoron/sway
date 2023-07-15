@@ -158,7 +158,7 @@ alias installf='flatpak install'
 alias searchf='flatpak search'
 alias removef='flatpak remove'
 
-PATH="$PATH":root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/var/lib/snapd/snap/bin:/opt/flutter/bin
+PATH="$PATH":root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/var/lib/snapd/snap/bin:/opt/flutter/bin:/home/luism/.cargo/bin
 
 # User specific environment
 export PATH="$PATH:$HOME/opt/flutter/bin"
@@ -182,7 +182,6 @@ eval "$(pyenv init -)"
 # Load pyenv-virtualenv automatically by adding
 # the following to ~/.bashrc:
 
-eval "$(pyenv virtualenv-init -)"
 
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
